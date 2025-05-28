@@ -1,87 +1,158 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" >
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tecnologia na Pecuária</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tecnologia na Pecuária</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
 </head>
 <body>
-    <header>
-        <h1>Tecnologia na Pecuária</h1>
-        <p>Como a inovação está transformando o campo</p>
-    </header>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">PecuáriaTech</div>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#tecnologias">Tecnologias</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
 
-    <main>
-        <section class="tech-block">
-            <img src="images/drone.jpg" alt="Drone sobrevoando fazenda" />
-            <div>
-                <h2>Uso de Drones</h2>
-                <p>
-                    Drones permitem monitoramento aéreo de rebanhos e pastagens, aumentando a
-                    eficiência no manejo.
-                </p>
-            </div>
-        </section>
+  <header id="topo">
+    <div class="container header-content">
+      <h1>Tecnologia na Pecuária</h1>
+      <p>Como a inovação está transformando o campo e impulsionando a produção sustentável</p>
+      <a href="#tecnologias" class="btn-primary">Conheça as Tecnologias</a>
+    </div>
+  </header>
 
-        <section class="tech-block">
-            <img src="images/rastreador-gado.jpg" alt="Gado com rastreador" />
-            <div>
-                <h2>Rastreamento por GPS</h2>
-                <p>
-                    Com coleiras inteligentes, é possível rastrear a localização dos animais e
-                    prevenir perdas.
-                </p>
-            </div>
-        </section>
+  <section id="sobre" class="container section">
+    <h2>Sobre a Tecnologia na Pecuária</h2>
+    <p>
+      A pecuária vem se beneficiando cada vez mais das tecnologias digitais e automação. Isso
+      permite maior produtividade, sustentabilidade e bem-estar animal, com monitoramento
+      em tempo real e análise de dados precisos para decisões inteligentes.
+    </p>
+  </section>
 
-        <section class="tech-block">
-            <img src="images/sensores.jpg" alt="Sensor em animal" />
-            <div>
-                <h2>Sensores de Saúde</h2>
-                <p>
-                    Sensores aplicados aos animais permitem o acompanhamento de saúde em tempo
-                    real.
-                </p>
-            </div>
-        </section>
+  <section id="tecnologias" class="container section">
+    <h2>Tecnologias Aplicadas</h2>
 
-        <section class="tech-block">
-            <img src="images/robot-pastejo.jpg" alt="Robô no pastejo" />
-            <div>
-                <h2>Robótica no Pastejo</h2>
-                <p>
-                    Robôs auxiliam na alimentação automática e no manejo do gado, otimizando
-                    recursos e tempo.
-                </p>
-            </div>
-        </section>
+    <div class="cards">
 
-        <section class="tech-block">
-            <img src="images/inteligencia-artificial.jpg" alt="Gráfico de IA" />
-            <div>
-                <h2>Inteligência Artificial</h2>
-                <p>
-                    Sistemas de IA analisam dados do rebanho para prever doenças e melhorar a
-                    produtividade.
-                </p>
-            </div>
-        </section>
+      <article class="card">
+        <img src="images/drone.jpg" alt="Drone sobrevoando fazenda" />
+        <div class="card-content">
+          <h3>Uso de Drones</h3>
+          <p>Drones permitem monitoramento aéreo de rebanhos e pastagens, aumentando a eficiência no manejo.</p>
+          <a href="https://www.agriculture.com/technology/drones" target="_blank" class="btn-secondary">
+            Saiba mais <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
 
-        <section class="tech-block">
-            <img src="images/big-data.jpg" alt="Big Data na pecuária" />
-            <div>
-                <h2>Big Data na Pecuária</h2>
-                <p>
-                    Grandes volumes de dados são coletados para tomar decisões estratégicas e
-                    sustentáveis.
-                </p>
-            </div>
-        </section>
-    </main>
+      <article class="card">
+        <img src="images/rastreador-gado.jpg" alt="Gado com rastreador" />
+        <div class="card-content">
+          <h3>Rastreamento por GPS</h3>
+          <p>Com coleiras inteligentes, é possível rastrear a localização dos animais e prevenir perdas.</p>
+          <a href="https://www.livestockgps.com" target="_blank" class="btn-secondary">
+            Saiba mais <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
 
-    <footer>
-        <p>© 2025 - Site desenvolvido para fins educacionais</p>
-    </footer>
+      <article class="card">
+        <img src="images/sensores.jpg" alt="Sensor em animal" />
+        <div class="card-content">
+          <h3>Sensores de Saúde</h3>
+          <p>Sensores aplicados aos animais permitem o acompanhamento de saúde em tempo real.</p>
+          <a href="https://www.smartlivestock.com/sensors" target="_blank" class="btn-secondary">
+            Saiba mais <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="images/robot-pastejo.jpg" alt="Robô no pastejo" />
+        <div class="card-content">
+          <h3>Robótica no Pastejo</h3>
+          <p>Robôs auxiliam na alimentação automática e no manejo do gado, otimizando recursos e tempo.</p>
+          <a href="https://www.agrobotics.com/pastejo" target="_blank" class="btn-secondary">
+            Saiba mais <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="images/inteligencia-artificial.jpg" alt="Gráfico de IA" />
+        <div class="card-content">
+          <h3>Inteligência Artificial</h3>
+          <p>Sistemas de IA analisam dados do rebanho para prever doenças e melhorar a produtividade.</p>
+          <a href="https://www.aiagriculture.org" target="_blank" class="btn-secondary">
+            Saiba mais <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="images/big-data.jpg" alt="Big Data na pecuária" />
+        <div class="card-content">
+          <h3>Big Data na Pecuária</h3>
+          <p>Grandes volumes de dados são coletados para tomar decisões estratégicas e sustentáveis.</p>
+          <a href="https://www.bigdatapecuaria.com" target="_blank" class="btn-secondary">
+            Saiba mais <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="contato" class="container section">
+    <h2>Contato</h2>
+    <p>Quer saber mais? Envie uma mensagem!</p>
+    <form action="https://formspree.io/f/yourformid" method="POST" class="form-contato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="_replyto" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <button type="submit" class="btn-primary">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© 2025 - Site desenvolvido para fins educacionais</p>
+      <div class="social-links">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      menuToggle.querySelector('i').classList.toggle('fa-bars');
+      menuToggle.querySelector('i').classList.toggle('fa-times');
+    });
+  </script>
 </body>
 </html>
