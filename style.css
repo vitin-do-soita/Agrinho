@@ -3,43 +3,68 @@ body {
     margin: 0;
     background-color: #f4f4f4;
     color: #333;
+    line-height: 1.6;
+    padding: 40px 0;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #002147; /* azul escuro */
     color: white;
-    padding: 2em;
+    padding: 3em 1em 3.5em 1em;
     text-align: center;
+    margin-bottom: 3em;
+}
+
+header h1 {
+    margin-bottom: 0.3em;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
 }
 
 main {
-    padding: 2em;
+    padding: 0 2em;
     max-width: 900px;
     margin: auto;
 }
 
 .tech-block {
     background: white;
-    margin-bottom: 2em;
+    margin-bottom: 3.5em;
     display: flex;
-    gap: 20px;
-    border-radius: 8px;
+    gap: 30px;
+    border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.12);
+    padding: 1.5em;
+    align-items: center;
 }
 
 .tech-block img {
-    width: 300px;
+    width: 320px;
+    height: 210px;
     object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
 }
 
 .tech-block div {
-    padding: 1em;
     flex: 1;
+}
+
+.tech-block h2 {
+    margin-top: 0;
+    margin-bottom: 0.6em;
+    color: #002147;
 }
 
 footer {
     text-align: center;
-    padding: 1em;
+    padding: 1.5em;
     background-color: #ddd;
+    margin-top: 3em;
+    font-size: 0.9em;
+    color: #555;
 }
