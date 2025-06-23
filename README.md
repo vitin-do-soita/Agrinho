@@ -39,5 +39,5 @@ Este projeto foi construído utilizando apenas **HTML**, **CSS** e uma pequena q
 ## Autoria e Créditos
 
 * **Desenvolvido por:** Victor Florencio Vieira
-* **Imagens:** As imagens utilizadas são de bancos de imagens e fontes jornalísticas, com os devidos links para os artigos originais nos cards.
+* **Imagens:** As imagens utilizadas no cabeçalho e nos cards foram selecionadas do banco de imagens gratuito **Pexels.com**, que oferece fotografias de alta qualidade sob uma licença de uso livre.
 * **Programa:** Este projeto foi submetido para a competição do Programa Agrinho. #agrinho
