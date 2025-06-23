@@ -8,7 +8,7 @@ O objetivo é apresentar um conteúdo rico e visualmente atraente, mostrando que
 
 ## Estrutura e Navegação
 
-O site é estruturado em seções claras e de fácil acesso:
+O site é estruturado em seções:
 
 1.  **Cabeçalho:** Uma introdução ao tema.
 2.  **Sobre:** Contextualização da pecuária de precisão.
